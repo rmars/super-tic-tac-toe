@@ -11,11 +11,8 @@ Game Rules: https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe
 Run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -25,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This app uses `jest` for testing. To run tests, use:
 
 ```bash
-jarn jest
+npm jest
 ```
 
 ## Production
@@ -37,4 +34,3 @@ Visit https://super-tic-tac-toe-black.vercel.app/ to play!
 ## TODOs
 
 - [ ] add more tests
-- [ ] remove yarn.lock or package-json.lock
