@@ -23,7 +23,9 @@ export default function SuperBoard() {
           // check if board is valid to play on
           if (
             lastPlayedSquare !== null &&
-            boardResults[lastPlayedSquare] === null && // if the last played square would direct you to a board that has already been won, you can play anywhere
+            // if the last played square would direct you to a board that has
+            // already been won, you can play anywhere
+            boardResults[lastPlayedSquare] === null &&
             lastPlayedSquare != boardNumber
           ) {
             console.warn(
@@ -85,16 +87,19 @@ export default function SuperBoard() {
       currentPlayer: "X",
       // store the board state (9 tic tac toe boards)
       squares: Array(9).fill(Array(9).fill(null)),
-      // lastPlay stores both the sub-board where the last play occurred, and the square
-      // of that sub-board on which it occurred. For example, if I played in square 0 (first square)
-      // of board 4 (middle board), lastPlay would look like:
+      // lastPlay stores both the sub-board where the last play occurred, and
+      // the square of that sub-board on which it occurred. For example, if I
+      // played in square 0 (first square) of board 4 (middle board), lastPlay
+      // would look like:
       // [null, null, null, 0, null, null, null, null, null]
       lastPlay: Array(9).fill(null),
-      // the last played square tells us which board is currently allowable to play on
+      // the last played square tells us which board is currently allowable to
+      // play on
       lastPlayedSquare: null,
       boardToPlay: null,
-      // store the results of each sub-board. If the second and third boards have been
-      // won by player X, and the eighth board drawn, boardResults would look like:
+      // store the results of each sub-board. If the second and third boards
+      // have been won by player X, and the eighth board drawn, boardResults
+      // would look like:
       // [null, "X", "X", null, null, null, null, null, "D"]
       boardResults: Array(9).fill(null),
       winner: null,

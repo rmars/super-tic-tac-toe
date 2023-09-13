@@ -27,3 +27,14 @@ This app uses `jest` for testing. To run tests, use:
 ```bash
 jarn jest
 ```
+
+## Production
+
+This app is deployed with Vercel.
+
+Visit https://super-tic-tac-toe-black.vercel.app/ to play!
+
+## TODOs
+
+- [ ] add more tests
+- [ ] remove yarn.lock or package-json.lock
