@@ -7,8 +7,8 @@ exports.modules = {
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Inter_20951f', '__Inter_Fallback_20951f'","fontStyle":"normal"},
-	"className": "__className_20951f"
+	"style": {"fontFamily":"'__Inter_9811d5', '__Inter_Fallback_9811d5'","fontStyle":"normal"},
+	"className": "__className_9811d5"
 };
 
 
@@ -30,7 +30,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(893);
 const _normalizetrailingslash = __webpack_require__(1094);
-const basePath =  false || "";
+const basePath = "/super-tic-tac-toe" || 0;
 function addBasePath(path, required) {
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)( false ? 0 : (0, _addpathprefix.addPathPrefix)(path, basePath));
 }
@@ -4834,7 +4834,7 @@ function createProxy(moduleId) {
 
 /***/ }),
 
-/***/ 8225:
+/***/ 4663:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
@@ -7452,7 +7452,7 @@ _export(exports, {
         return StaticGenerationSearchParamsBailoutProvider;
     }
 });
-const { default: AppRouter } = __webpack_require__(8225);
+const { default: AppRouter } = __webpack_require__(4663);
 const { default: LayoutRouter } = __webpack_require__(7149);
 const { default: RenderFromTemplateContext } = __webpack_require__(9278);
 const { staticGenerationAsyncStorage } = __webpack_require__(3539);
@@ -8801,7 +8801,7 @@ function isDynamicRoute(route) {
 
 /***/ }),
 
-/***/ 5777:
+/***/ 3881:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -8851,7 +8851,7 @@ Object.defineProperty(exports, "parseUrl", ({
     }
 }));
 const _querystring = __webpack_require__(2027);
-const _parserelativeurl = __webpack_require__(5777);
+const _parserelativeurl = __webpack_require__(3881);
 function parseUrl(url) {
     if (url.startsWith("/")) {
         return (0, _parserelativeurl.parseRelativeUrl)(url);

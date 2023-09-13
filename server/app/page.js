@@ -156,7 +156,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 3125:
+/***/ 5049:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -188,7 +188,7 @@ __webpack_require__.r(__webpack_exports__);
         children: ['__PAGE__', {}, {
           page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4500)), "/Users/mars/Dropbox/prog-repos/carp_folder/super-tic-tac-toe/src/app/page.js"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 914))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -199,7 +199,7 @@ __webpack_require__.r(__webpack_exports__);
         {
           'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2911)), "/Users/mars/Dropbox/prog-repos/carp_folder/super-tic-tac-toe/src/app/layout.js"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 914))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -233,18 +233,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2889:
+/***/ 1901:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
 
 /***/ }),
 
-/***/ 6735:
+/***/ 7190:
 /***/ (() => {
 
 
@@ -623,7 +623,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 3881:
+/***/ 914:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -637,7 +637,7 @@ __webpack_require__.r(__webpack_exports__);
 
   /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
     const imageData = {"type":"image/x-icon","sizes":"any"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)("/super-tic-tac-toe", props.params, "favicon.ico")
 
     return [{
       ...imageData,
@@ -668,7 +668,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [697,121], () => (__webpack_exec__(3125)));
+var __webpack_exports__ = __webpack_require__.X(0, [697,121], () => (__webpack_exec__(5049)));
 module.exports = __webpack_exports__;
 
 })();
