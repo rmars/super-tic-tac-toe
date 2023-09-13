@@ -43,11 +43,19 @@ body {
   font-weight: bold;
   line-height: 34px;
   height: 34px;
+  width: 34px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .square {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+  }
 }
 
 .board-row:after {
